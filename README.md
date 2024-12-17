@@ -74,26 +74,6 @@ git clone https://github.com/BrenoFariasDaSilva/Worked-Example-Miner-Candidates.
 cd Worked-Example-Miner-Candidates
 ```
 
-## Installation:
-* Programing Language:
-
-	* Manually:
-		```bash
-		# Programing Language:
-		sudo apt install program-language -y
-		```
-
-  * Using Makefile:
-    ```bash
-    make install
-    ```
-
-  * Using ShellScript:
-    ```bash
-    chmod +x install.sh
-    sudo ./install.sh
-    ```  
-
 ## Run Programing Language Code:
 ```bash
 # Command here 
