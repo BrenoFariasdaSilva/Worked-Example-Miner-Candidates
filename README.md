@@ -82,11 +82,6 @@ cd Worked-Example-Miner-Candidates
 make dataset
 ```
 
-
-## Results - Optional
-
-Discuss the results obtained in the project.
-
 ## Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. If you have suggestions for improving the code, your insights will be highly welcome.
