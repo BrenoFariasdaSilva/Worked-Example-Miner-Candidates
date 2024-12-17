@@ -109,6 +109,7 @@ When creating an **Issue** or **Pull Request (PR)** related to candidates, pleas
 - **approved_candidates**: For candidates that have been thoroughly reviewed and approved for conversion into Worked Examples.
 - **discarded_candidates**: For candidates that have been deemed unsuitable and should be excluded from further analysis.
 - **needs_further_review**: For candidates that require additional analysis or discussion before making a final decision.
+- **worked_examples**: For Issues/PRs related to the creation of Worked Examples from candidates in the **`approved_candidates`** directory.
 
 This helps maintain a clear and organized flow throughout the process.
 
