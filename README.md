@@ -74,11 +74,6 @@ git clone https://github.com/BrenoFariasDaSilva/Worked-Example-Miner-Candidates.
 cd Worked-Example-Miner-Candidates
 ```
 
-## Run Programing Language Code:
-```bash
-# Command here 
-```
-
 ### Dependencies
 
 1. Install the project dependencies with the following command:
