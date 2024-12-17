@@ -59,10 +59,6 @@ Project-Description.
 
 Detailed project description.
 
-## Requirements
-
-Bullet points of the requirements.
-
 ## Setup
 
 ### Clone the repository
