@@ -132,12 +132,12 @@ Discuss the results obtained in the project.
 If you use the Repository-Name in your research, please cite it using the following BibTeX entry:
 
 ```
-@misc{softwareRepository-Name:2024,
-  title = {Repository-Name: Project-Description},
-  author = {Breno Farias da Silva},
-  year = {2024},
-  howpublished = {https://github.com/BrenoFariasdaSilva/Repository-Name},
-  note = {Accessed on September 11, 2024}
+@misc{WEMCandidates:2024,
+	title = {This repository complements the Worked-Example-Miner (WEM) project by storing code candidates generated during its execution. These candidates meet the heuristic criteria implemented in WEM and are analyzed by experts. The best candidates, as recommended by experts, can be transformed into Worked Examples to enhance Computer Science lectures.},
+	author = {Breno Farias da Silva},
+	year = {2024},
+	howpublished = {\url{https://github.com/BrenoFariasdaSilva/Worked-Example-Miner-Candidates}},
+	note = {Accessed on Dezember 17, 2024}
 }
 ```
 
