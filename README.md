@@ -74,14 +74,6 @@ git clone https://github.com/BrenoFariasDaSilva/Worked-Example-Miner-Candidates.
 cd Worked-Example-Miner-Candidates
 ```
 
-### Dependencies
-
-1. Install the project dependencies with the following command:
-
-```bash
-make dependencies
-```
-
 ### Dataset - Optional
 
 1. Download the dataset from [WEBSITE-HERE]() and place it in this project directory `(/Worked-Example-Miner-Candidates)` and run the following command:
