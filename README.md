@@ -94,26 +94,6 @@ make run
 
 Discuss the results obtained in the project.
 
-## How to Cite?
-
-If you use the Repository-Name in your research, please cite it using the following BibTeX entry:
-
-```
-@misc{WEMCandidates:2024,
-	title = {This repository complements the Worked-Example-Miner (WEM) project by storing code candidates generated during its execution. These candidates meet the heuristic criteria implemented in WEM and are analyzed by experts. The best candidates, as recommended by experts, can be transformed into Worked Examples to enhance Computer Science lectures.},
-	author = {Breno Farias da Silva},
-	year = {2024},
-	howpublished = {\url{https://github.com/BrenoFariasdaSilva/Worked-Example-Miner-Candidates}},
-	note = {Accessed on Dezember 17, 2024}
-}
-```
-
-Additionally, a `main.bib` file is available in the root directory of this repository, in which contains the BibTeX entry for this project.
-
-If you find this repository valuable, please don't forget to give it a ⭐ to show your support! Contributions are highly encouraged, whether by creating issues for feedback or submitting pull requests (PRs) to improve the project. For details on how to contribute, please refer to the [Contributing](#contributing) section below.
-
-Thank you for your support and for recognizing the contribution of this tool to your work!
-
 ## Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. If you have suggestions for improving the code, your insights will be highly welcome.
@@ -140,6 +120,26 @@ Please follow these guidelines to make your contributions smooth and effective:
 4. **Stay Engaged**: Respond to any feedback from the project maintainers and make necessary adjustments to your PR.
 
 5. **Celebrate**: Once your PR is merged, celebrate your contribution to the project!
+
+## How to Cite?
+
+If you use the Repository-Name in your research, please cite it using the following BibTeX entry:
+
+```
+@misc{WEMCandidates:2024,
+	title = {This repository complements the Worked-Example-Miner (WEM) project by storing code candidates generated during its execution. These candidates meet the heuristic criteria implemented in WEM and are analyzed by experts. The best candidates, as recommended by experts, can be transformed into Worked Examples to enhance Computer Science lectures.},
+	author = {Breno Farias da Silva},
+	year = {2024},
+	howpublished = {\url{https://github.com/BrenoFariasdaSilva/Worked-Example-Miner-Candidates}},
+	note = {Accessed on Dezember 17, 2024}
+}
+```
+
+Additionally, a `main.bib` file is available in the root directory of this repository, in which contains the BibTeX entry for this project.
+
+If you find this repository valuable, please don't forget to give it a ⭐ to show your support! Contributions are highly encouraged, whether by creating issues for feedback or submitting pull requests (PRs) to improve the project. For details on how to contribute, please refer to the [Contributing](#contributing) section below.
+
+Thank you for your support and for recognizing the contribution of this tool to your work!
 
 ## Collaborators
 
