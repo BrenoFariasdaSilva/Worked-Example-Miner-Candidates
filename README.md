@@ -49,6 +49,8 @@ Project-Description.
 
 ## Setup
 
+To get started with the project, follow these steps:
+
 ### Clone the repository
 
 1. Clone the repository with the following command:
