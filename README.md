@@ -1,6 +1,6 @@
 <div align="center">
   
-# [Worked-Example-Miner-Candidates.](https://github.com/BrenoFariasdaSilva/Worked-Example-Miner-Candidates) <img src="Icon-Image-URL"  width="3%" height="3%">
+# [Worked-Example-Miner-Candidates.](https://github.com/BrenoFariasdaSilva/Worked-Example-Miner-Candidates) <img src="https://github.com/BrenoFariasdaSilva/Worked-Example-Miner-Candidates/blob/main/.assets/Icons/Bash.svg"  width="3%" height="3%">
 
 </div>
 
