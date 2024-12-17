@@ -89,6 +89,8 @@ candidates/
 ├── approved_candidates/   # Final candidates approved for Worked Examples.
 ├── discarded_candidates/  # Candidates determined to be unsuitable.
 └── needs_further_review/  # Candidates requiring additional analysis.
+
+worked_examples/           # Concrete Worked Examples created from the approved candidates.
 ```
 
 #### How to Contribute:
