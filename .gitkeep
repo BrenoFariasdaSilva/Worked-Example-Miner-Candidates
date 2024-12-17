@@ -1,6 +1,7 @@
-candidates/
-awaiting_review/
-under_review/
-approved_candidates/
-discarded_candidates/
-needs_further_review/
+candidates/*
+candidates/awaiting_review/*
+candidates/under_review/*
+candidates/approved_candidates/*
+candidates/discarded_candidates/*
+candidates/needs_further_review/*
+worked_examples/*
