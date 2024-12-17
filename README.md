@@ -102,6 +102,16 @@ worked_examples/           # Concrete Worked Examples created from the approved 
    - If you're uncertain and want further input, move the candidate to the "needs_further_review" directory.
 3. **Create a Pull Request (PR)**: Submit your changes with a clear description of your analysis and reasoning.
 
+#### Issue and PR Labeling:
+When creating an **Issue** or **Pull Request (PR)** related to candidates, please ensure that it is labeled with the corresponding directory name from the following list:
+- **awaiting_review**: For candidates that are awaiting initial analysis.
+- **under_review**: For candidates currently being analyzed or discussed.
+- **approved_candidates**: For candidates that have been thoroughly reviewed and approved for conversion into Worked Examples.
+- **discarded_candidates**: For candidates that have been deemed unsuitable and should be excluded from further analysis.
+- **needs_further_review**: For candidates that require additional analysis or discussion before making a final decision.
+
+This helps maintain a clear and organized flow throughout the process.
+
 The organized classification of candidates helps streamline the process of building a high-quality dataset that benefits the broader Computer Science community. Thank you for your support!
 
 ## Contributing
