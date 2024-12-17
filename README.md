@@ -55,10 +55,6 @@ Project-Description.
     - [MIT License](#mit-license)
 
 
-## Introduction
-
-Detailed project description.
-
 ## Setup
 
 ### Clone the repository
