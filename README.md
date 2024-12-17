@@ -34,25 +34,18 @@ Project-Description.
 </div>
 
 ## Table of Contents
-- [Worked-Example-Miner-Candidates. ](#Worked-Example-Miner-Candidates-)
+- [Worked-Example-Miner-Candidates](#worked-example-miner-candidates)
   - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
-  - [Requirements](#requirements)
   - [Setup](#setup)
     - [Clone the repository](#clone-the-repository)
-  - [Installation:](#installation)
-  - [Run Programing Language Code:](#run-programing-language-code)
-    - [Dependencies](#dependencies)
-    - [Dataset - Optional](#dataset---optional)
-  - [Usage](#usage)
-  - [Results - Optional](#results---optional)
+  - [Dataset: Worked-Example Candidates](#dataset-worked-example-candidates)
+    - [Directory Structure](#directory-structure)
+    - [How to Contribute](#how-to-contribute)
+    - [Issue and PR Labeling](#issue-and-pr-labeling)
   - [How to Cite?](#how-to-cite)
-  - [Contributing](#contributing)
   - [Collaborators](#collaborators)
   - [License](#license)
     - [Apache License 2.0](#apache-license-20)
-    - [Creative Commons Zero v1.0 Universal (CC0 1.0)](#creative-commons-zero-v10-universal-cc0-10)
-    - [MIT License](#mit-license)
 
 ## Setup
 
