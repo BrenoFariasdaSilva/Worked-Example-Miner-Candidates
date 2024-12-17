@@ -82,13 +82,6 @@ cd Worked-Example-Miner-Candidates
 make dataset
 ```
 
-## Usage
-
-In order to run the project, run the following command:
-
-```bash
-make run
-```
 
 ## Results - Optional
 
