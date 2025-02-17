@@ -96,7 +96,6 @@ This sections contains a markdown table with the current status of the candidate
 
 | Status | Repo Name | Class Candidates | Method Candidates |
 |--------|----------|----------------|----------------|
-| awaiting_review | moleculer-java | 54 | 104 |
 
 <!-- END README-CANDIDATES-TABLE -->
 
