@@ -143,6 +143,16 @@ def get_table_rows(candidates_path):
 
    return table_rows # Return the table rows
 
+def sort_table_rows(table_rows):
+   """
+   Sorts the table rows by Status and Repo Name.
+
+   :param table_rows: List of table rows
+   :return: List of sorted table rows
+   """
+
+   return sorted(table_rows, key=lambda x: (x[0], x[1].lower())) # Sort first by "Status", then by "Repo Name"
+
 def generate_markdown():
    """
    Generates a markdown table with candidate counts for each repository, 
