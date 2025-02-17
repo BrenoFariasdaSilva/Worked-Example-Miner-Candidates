@@ -74,6 +74,16 @@ def get_base_dirs(candidates_path):
    
    return [d for d in os.listdir(candidates_path) if os.path.isdir(os.path.join(candidates_path, d))]
 
+def get_repo_dirs(status_path):
+   """
+   Retrieves repository directories inside a given status directory.
+
+   :param status_path: Path to the status directory
+   :return: List of repository directories
+   """
+
+   return [repo for repo in os.listdir(status_path) if os.path.isdir(os.path.join(status_path, repo))]
+
 def get_table_rows(candidates_path):
    """
    Generates the rows of the table, collecting status, repo name, and candidate counts.
