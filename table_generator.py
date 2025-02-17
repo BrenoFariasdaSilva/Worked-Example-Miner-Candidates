@@ -1,3 +1,4 @@
+import csv # This module implements classes to read and write tabular data in CSV format
 import os # For running a command in the terminal
 from colorama import Style # For coloring the terminal
 from datetime import datetime # This module supplies classes for manipulating dates and times.
@@ -83,6 +84,25 @@ def get_repo_dirs(status_path):
    """
 
    return [repo for repo in os.listdir(status_path) if os.path.isdir(os.path.join(status_path, repo))]
+
+def count_candidates(file_path):
+   """
+   Counts the number of non-empty candidate lines in a CSV file after the header.
+
+   :param file_path: Path to the CSV file
+   :return: The number of non-empty candidate lines in the CSV file after the header
+   """
+
+   verbose_output(f"{BackgroundColors.YELLOW}Counting candidates in the CSV file: {BackgroundColors.CYAN}{file_path}{Style.RESET_ALL}") # Output the verbose message
+
+   try: # Try to read the CSV file
+      with open(file_path, newline="", encoding="utf-8") as csvfile: # Open the CSV file
+         reader = csv.reader(csvfile) # Create a CSV reader
+         rows = [row for row in reader if any(cell.strip() for cell in row)] # Ignore empty lines
+         return max(0, len(rows) - 1) # Subtract header row
+   except Exception as e: # Catch any exceptions
+      print(f"Error reading {file_path}: {e}") # Output the error message
+      return 0 # Return 0
 
 def count_csv_candidates(repo_path, repo_name):
    """
