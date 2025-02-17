@@ -1,5 +1,3 @@
-# @TODO: Make this code read the readme.md file and update the table with the new data and create and automatic job to run this code after every commit.
-
 import csv # For reading and writing CSV files
 import os # For running a command in the terminal
 import re # For regular expressions
