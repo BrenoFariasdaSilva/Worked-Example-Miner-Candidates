@@ -1,5 +1,6 @@
 import csv # For reading and writing CSV files
 import os # For running a command in the terminal
+import pytz # Import pytz for time zone handling
 import re # For regular expressions
 from colorama import Style # For coloring the terminal
 from datetime import datetime # This module supplies classes for manipulating dates and times.
@@ -45,12 +46,13 @@ def verify_filepath_exists(filepath):
 
 def get_timestamp():
    """
-   Generates the current timestamp.
+   Generates the current timestamp in Brazil's time zone (UTC-3).
 
    :return: The current timestamp in the format YYYY-MM-DD HH:MM:SS
    """
 
-   return datetime.now().strftime("%Y-%m-%d %H:%M:%S") # Return the current timestamp
+   brt = pytz.timezone("America/Sao_Paulo") # Define Brazil's time zone
+   return datetime.now(brt).strftime("%Y-%m-%d %H:%M:%S") # Return the timestamp
 
 def get_markdown_header(timestamp):
    """
