@@ -4,3 +4,6 @@ Thumbs.db
 
 # Ignore the Windows .Desktop Files
 desktop.ini
+
+# Ignore the venv folder
+venv/
