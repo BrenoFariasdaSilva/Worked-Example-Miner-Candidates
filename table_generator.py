@@ -190,6 +190,20 @@ def read_readme(file_path):
    with open(file_path, "r", encoding="utf-8") as file: # Open the README.md file
       return file.read() # Return the content of the file
 
+def construct_table(markdown_lines, start_marker, end_marker):
+   """
+   Constructs the new markdown table within the placeholder tags.
+
+   :param markdown_lines: List of markdown lines
+   :param start_marker: Start placeholder tag
+   :param end_marker: End placeholder tag
+   :return: Formatted table content
+   """
+
+   verbose_output(f"{BackgroundColors.YELLOW}Constructing the new markdown table within the placeholder tags{Style.RESET_ALL}")
+   
+   return f"{start_marker}\n\n" + "\n".join(markdown_lines) + f"\n\n{end_marker}" # Return the formatted table content
+
 def update_readme(markdown_lines):
    """
    Updates the README.md file by replacing the markdown table inside the placeholder tags.
