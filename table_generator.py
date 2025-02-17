@@ -64,6 +64,16 @@ def get_markdown_header(timestamp):
       "|--------|----------|----------------|----------------|"
    ]
 
+def get_base_dirs(candidates_path):
+   """
+   Retrieves the base directories inside the candidates directory.
+
+   :param candidates_path: Path to the candidates directory
+   :return: List of base directories
+   """
+   
+   return [d for d in os.listdir(candidates_path) if os.path.isdir(os.path.join(candidates_path, d))]
+
 def get_table_rows(candidates_path):
    """
    Generates the rows of the table, collecting status, repo name, and candidate counts.
