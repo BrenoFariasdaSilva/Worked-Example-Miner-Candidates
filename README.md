@@ -45,7 +45,7 @@ Additionally, **Worked Examples** are created from the **approved candidates** t
   - [Dataset: Worked-Example Candidates](#dataset-worked-example-candidates)
     - [Directory Structure:](#directory-structure)
   - [Worked-Example Candidates](#worked-example-candidates)
-    - [Candidates Summary (Last Updated: 2025-02-17 14:20:00)](#candidates-summary-last-updated-2025-02-17-142000)
+    - [Candidates Summary (Last Updated: 2025-02-17 14:55:46)](#candidates-summary-last-updated-2025-02-17-145546)
     - [How to Contribute:](#how-to-contribute)
     - [Issue and PR Labeling:](#issue-and-pr-labeling)
   - [Contributing](#contributing)
@@ -92,10 +92,11 @@ This sections contains a markdown table with the current status of the candidate
 
 <!-- START README-CANDIDATES-TABLE -->
 
-### Candidates Summary (Last Updated: 2025-02-17 14:20:00)
+### Candidates Summary (Last Updated: 2025-02-17 14:55:46)
 
-| Status  | Repo Name | Class Candidates | Method Candidates |
-|---------|----------|------------------|------------------|
+| Status | Repo Name | Class Candidates | Method Candidates |
+|--------|----------|----------------|----------------|
+| awaiting_review | moleculer-java | 54 | 104 |
 
 <!-- END README-CANDIDATES-TABLE -->
 
