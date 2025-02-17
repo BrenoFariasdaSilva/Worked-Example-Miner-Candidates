@@ -40,6 +40,11 @@ jobs:
           source venv/bin/activate
           make run  # Run the Makefile to execute the table_generator.py script
 
+      - name: Configure Git user
+        run: |
+          git config --global user.email "breno.vicio78@gmail.com"
+          git config --global user.name "Breno Farias da Silva"
+
       - name: Commit changes if any
         run: |
           git add README.md  # Assuming README.md is the file being updated by the script
