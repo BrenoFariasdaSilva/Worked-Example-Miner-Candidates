@@ -1,5 +1,6 @@
-import csv # This module implements classes to read and write tabular data in CSV format
+import csv # For reading and writing CSV files
 import os # For running a command in the terminal
+import re # For regular expressions
 from colorama import Style # For coloring the terminal
 from datetime import datetime # This module supplies classes for manipulating dates and times.
 
