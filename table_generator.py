@@ -41,6 +41,15 @@ def verify_filepath_exists(filepath):
 
    return os.path.exists(filepath) # Return True if the file or folder exists, False otherwise
 
+def get_timestamp():
+   """
+   Generates the current timestamp.
+
+   :return: The current timestamp in the format YYYY-MM-DD HH:MM:SS
+   """
+
+   return datetime.now().strftime("%Y-%m-%d %H:%M:%S") # Return the current timestamp
+
 def generate_markdown():
    """
    Generates a markdown table with candidate counts for each repository, 
