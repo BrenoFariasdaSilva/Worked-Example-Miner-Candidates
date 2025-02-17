@@ -50,6 +50,20 @@ def get_timestamp():
 
    return datetime.now().strftime("%Y-%m-%d %H:%M:%S") # Return the current timestamp
 
+def get_markdown_header(timestamp):
+   """
+   Generates the header for the markdown table.
+
+   :param timestamp: The timestamp to include in the header
+   :return: List of markdown header lines
+   """
+
+   return [
+      f"### Candidates Summary (Last Updated: {timestamp})\n",
+      "| Status | Repo Name | Class Candidates | Method Candidates |",
+      "|--------|----------|----------------|----------------|"
+   ]
+
 def generate_markdown():
    """
    Generates a markdown table with candidate counts for each repository, 
