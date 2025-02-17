@@ -177,6 +177,19 @@ def generate_markdown():
 
    return markdown_lines # Return the markdown lines
 
+def read_readme(file_path):
+   """
+   Reads the content of README.md.
+
+   :param file_path: Path to the README.md file
+   :return: Content of the file as a string
+   """
+
+   verbose_output(f"{BackgroundColors.YELLOW}Reading the README.md file{Style.RESET_ALL}") # Output the verbose message
+
+   with open(file_path, "r", encoding="utf-8") as file: # Open the README.md file
+      return file.read() # Return the content of the file
+
 def update_readme(markdown_lines):
    """
    Updates the README.md file by replacing the markdown table inside the placeholder tags.
