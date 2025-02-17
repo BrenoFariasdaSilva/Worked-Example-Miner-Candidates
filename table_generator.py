@@ -230,6 +230,19 @@ def replace_table(content, new_table, start_marker, end_marker):
 
    return None # Return None
 
+def write_readme(file_path, content):
+   """
+   Writes the updated content back to README.md.
+
+   :param file_path: Path to the README.md file
+   :param content: Updated content
+   """
+
+   verbose_output(f"{BackgroundColors.YELLOW}Writing the updated content back to README.md{Style.RESET_ALL}")
+
+   with open(file_path, "w", encoding="utf-8") as file: # Open the README.md file
+      file.write(content) # Write the updated content
+
 def update_readme(markdown_lines):
    """
    Updates the README.md file by replacing the markdown table inside the placeholder tags.
