@@ -62,8 +62,8 @@ def get_markdown_header(timestamp):
 
    return [
       f"### Candidates Summary (Last Updated: {timestamp})\n",
-      "| Status | Repo Name | Class Candidates | Method Candidates |",
-      "|--------|----------|----------------|----------------|"
+      "| # | Status | Repo Name | Class Candidates | Method Candidates |",
+      "|---|--------|----------|------------------|------------------|"
    ]
 
 def get_base_dirs(candidates_path):
