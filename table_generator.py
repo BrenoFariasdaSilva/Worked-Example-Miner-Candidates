@@ -173,8 +173,8 @@ def generate_markdown():
 
    table_rows = sort_table_rows(table_rows) # Sort the table rows
 
-   for status, repo_name, class_count, method_count in table_rows: # Iterate through the sorted table rows
-      markdown_lines.append(f"| {status} | {repo_name} | {class_count} | {method_count} |") # Append the table row to the markdown lines
+   for i, (status, repo_name, class_count, method_count) in enumerate(table_rows, start = 1): # Iterate through the sorted table rows
+      markdown_lines.append(f"| {i} | {status} | {repo_name} | {class_count} | {method_count} |") # Append the table row to the markdown lines
 
    return markdown_lines # Return the markdown lines
 
