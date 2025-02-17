@@ -1,0 +1,50 @@
+name: Update Table Generator
+
+on:
+  schedule:
+    # Runs at the start of every hour
+    - cron: '0 * * * *'
+  workflow_dispatch: # Allows manual triggering of the workflow
+
+permissions:
+  contents: write  # Allow actions to write to the repository
+
+jobs:
+  update-table:
+    runs-on: ubuntu-latest  # Use the latest Ubuntu runner
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          # Fetches all history for all tags and branches
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'  # Set the Python version to 3.x
+
+      - name: Set up virtual environment
+        run: |
+          python3 -m venv venv  # Create the virtual environment
+          source venv/bin/activate  # Activate the virtual environment
+
+      - name: Install dependencies
+        run: |
+          source venv/bin/activate
+          pip install -r requirements.txt  # Install dependencies from requirements.txt
+
+      - name: Run table generator
+        run: |
+          source venv/bin/activate
+          make run  # Run the Makefile to execute the table_generator.py script
+
+      - name: Commit changes if any
+        run: |
+          git add README.md  # Assuming README.md is the file being updated by the script
+          git diff --cached --quiet || git commit -m "REFACTOR: Automatically Updating the Candidates Summary Table in README"
+
+      - name: Push changes if any
+        run: |
+          git push origin main || echo "No changes to push."
