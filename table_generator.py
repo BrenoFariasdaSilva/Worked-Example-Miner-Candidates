@@ -177,6 +177,28 @@ def generate_markdown():
 
    return markdown_lines # Return the markdown lines
 
+def update_readme(markdown_lines):
+   """
+   Updates the README.md file by replacing the markdown table inside the placeholder tags.
+
+   :param markdown_lines: List of markdown lines
+   :return: None
+   """
+
+   verbose_output(f"{BackgroundColors.YELLOW}Updating the README.md file with the new markdown table{Style.RESET_ALL}")
+
+   readme_path = "./README.md" # Path to the README.md file
+   start_marker = "<!-- START README-CANDIDATES-TABLE -->" # Start placeholder tag
+   end_marker = "<!-- END README-CANDIDATES-TABLE -->" # End placeholder tag
+
+   readme_content = read_readme(readme_path) # Read the README.md file
+   new_table_content = construct_table(markdown_lines, start_marker, end_marker) # Construct the new markdown table
+   updated_readme_content = replace_table(readme_content, new_table_content, start_marker, end_marker) # Replace the existing markdown table with the new markdown table
+
+   if updated_readme_content: # If the updated README.md content is not None
+      write_readme(readme_path, updated_readme_content) # Write the updated content back to README.md
+      verbose_output(f"{BackgroundColors.GREEN}README.md updated successfully{Style.RESET_ALL}") # Output the success message
+
 def main():
    """
    Main function.
@@ -187,6 +209,7 @@ def main():
    print(f"{BackgroundColors.CLEAR_TERMINAL}{BackgroundColors.BOLD}{BackgroundColors.GREEN}Welcome to the {BackgroundColors.CYAN}Candidates Summary Table Generator{BackgroundColors.GREEN}!{Style.RESET_ALL}", end="\n\n") # Output the Welcome message
 
    markdown_lines = generate_markdown() # Generate the markdown table
+   update_readme(markdown_lines) # Update the README.md file with the new markdown table
 
    print(f"\n{BackgroundColors.BOLD}{BackgroundColors.GREEN}Program finished.{Style.RESET_ALL}") # Output the end of the program message
 
