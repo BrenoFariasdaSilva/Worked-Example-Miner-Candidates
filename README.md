@@ -90,10 +90,14 @@ worked_examples/           # Concrete Worked Examples created from the approved 
 
 This sections contains a markdown table with the current status of the candidates in the repository. The table is updated periodically to reflect the latest changes in the classification of candidates.
 
+<!-- START README-CANDIDATES-TABLE -->
+
 ### Candidates Summary (Last Updated: 2025-02-17 14:20:00)
 
 | Status  | Repo Name | Class Candidates | Method Candidates |
 |---------|----------|------------------|------------------|
+
+<!-- END README-CANDIDATES-TABLE -->
 
 ### How to Contribute:
 1. **Analyze the Candidates**: Start by reviewing files in the "awaiting_review" directory.
