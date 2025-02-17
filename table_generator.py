@@ -1,5 +1,6 @@
 import os # For running a command in the terminal
 from colorama import Style # For coloring the terminal
+from datetime import datetime # This module supplies classes for manipulating dates and times.
 
 # Macros:
 class BackgroundColors: # Colors for the terminal
@@ -40,6 +41,30 @@ def verify_filepath_exists(filepath):
 
    return os.path.exists(filepath) # Return True if the file or folder exists, False otherwise
 
+def generate_markdown():
+   """
+   Generates a markdown table with candidate counts for each repository, 
+   sorted by Status and Repo Name.
+
+   :param None
+   :return: List of markdown lines
+   """
+
+   verbose_output(f"{BackgroundColors.YELLOW}Generating markdown table with candidate counts for each repository{Style.RESET_ALL}")
+
+   candidates_path = os.path.join(os.getcwd(), "candidates") # Get the path to the candidates directory
+   timestamp = get_timestamp() # Get the current timestamp
+
+   markdown_lines = get_markdown_header(timestamp) # Get the markdown header lines
+   table_rows = get_table_rows(candidates_path) # Get the table rows
+
+   table_rows = sort_table_rows(table_rows) # Sort the table rows
+
+   for status, repo_name, class_count, method_count in table_rows: # Iterate through the sorted table rows
+      markdown_lines.append(f"| {status} | {repo_name} | {class_count} | {method_count} |") # Append the table row to the markdown lines
+
+   return markdown_lines # Return the markdown lines
+
 def main():
    """
    Main function.
@@ -48,6 +73,8 @@ def main():
    """
 
    print(f"{BackgroundColors.CLEAR_TERMINAL}{BackgroundColors.BOLD}{BackgroundColors.GREEN}Welcome to the {BackgroundColors.CYAN}Candidates Summary Table Generator{BackgroundColors.GREEN}!{Style.RESET_ALL}", end="\n\n") # Output the Welcome message
+
+   markdown_lines = generate_markdown() # Generate the markdown table
 
    print(f"\n{BackgroundColors.BOLD}{BackgroundColors.GREEN}Program finished.{Style.RESET_ALL}") # Output the end of the program message
 
