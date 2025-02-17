@@ -204,6 +204,31 @@ def construct_table(markdown_lines, start_marker, end_marker):
    
    return f"{start_marker}\n\n" + "\n".join(markdown_lines) + f"\n\n{end_marker}" # Return the formatted table content
 
+def replace_table(content, new_table, start_marker, end_marker):
+   """
+   Replaces the existing markdown table within the placeholder tags.
+
+   :param content: Original README.md content
+   :param new_table: New markdown table content
+   :param start_marker: Start placeholder tag
+   :param end_marker: End placeholder tag
+   :return: Updated README.md content
+   """
+
+   verbose_output(f"{BackgroundColors.YELLOW}Replacing the existing markdown table within the placeholder tags{Style.RESET_ALL}")
+
+   table_pattern = re.compile(
+      f"{re.escape(start_marker)}.*?{re.escape(end_marker)}",
+      re.DOTALL
+   ) # Regular expression pattern for the table
+
+   if table_pattern.search(content): # If the table pattern is found
+      return table_pattern.sub(new_table, content) # Replace the table with the new table
+   
+   print("{BackgroundColors.RED}Table pattern not found in README.md{Style.RESET_ALL}") # Output the error message
+
+   return None # Return None
+
 def update_readme(markdown_lines):
    """
    Updates the README.md file by replacing the markdown table inside the placeholder tags.
