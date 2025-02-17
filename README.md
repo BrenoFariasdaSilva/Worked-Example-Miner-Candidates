@@ -38,14 +38,17 @@ Additionally, **Worked Examples** are created from the **approved candidates** t
 </div>
 
 ## Table of Contents
-- [Worked-Example-Miner-Candidates](#worked-example-miner-candidates)
+- [Worked-Example-Miner-Candidates. ](#worked-example-miner-candidates-)
   - [Table of Contents](#table-of-contents)
   - [Setup](#setup)
     - [Clone the repository](#clone-the-repository)
   - [Dataset: Worked-Example Candidates](#dataset-worked-example-candidates)
-    - [Directory Structure](#directory-structure)
-    - [How to Contribute](#how-to-contribute)
-    - [Issue and PR Labeling](#issue-and-pr-labeling)
+    - [Directory Structure:](#directory-structure)
+  - [Worked-Example Candidates](#worked-example-candidates)
+    - [Candidates Summary (Last Updated: 2025-02-17 14:20:00)](#candidates-summary-last-updated-2025-02-17-142000)
+    - [How to Contribute:](#how-to-contribute)
+    - [Issue and PR Labeling:](#issue-and-pr-labeling)
+  - [Contributing](#contributing)
   - [How to Cite?](#how-to-cite)
   - [Collaborators](#collaborators)
   - [License](#license)
@@ -82,6 +85,15 @@ candidates/
 
 worked_examples/           # Concrete Worked Examples created from the approved candidates.
 ```
+
+## Worked-Example Candidates
+
+This sections contains a markdown table with the current status of the candidates in the repository. The table is updated periodically to reflect the latest changes in the classification of candidates.
+
+### Candidates Summary (Last Updated: 2025-02-17 14:20:00)
+
+| Status  | Repo Name | Class Candidates | Method Candidates |
+|---------|----------|------------------|------------------|
 
 ### How to Contribute:
 1. **Analyze the Candidates**: Start by reviewing files in the "awaiting_review" directory.
