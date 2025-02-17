@@ -92,10 +92,66 @@ This sections contains a markdown table with the current status of the candidate
 
 <!-- START README-CANDIDATES-TABLE -->
 
-### Candidates Summary (Last Updated: 2025-02-17 14:55:46)
+### Candidates Summary (Last Updated: 2025-02-17 18:26:02)
 
 | Status | Repo Name | Class Candidates | Method Candidates |
 |--------|----------|----------------|----------------|
+| awaiting_review | advanced-java | 0 | 0 |
+| awaiting_review | allgood-consistent-hash | 0 | 2 |
+| awaiting_review | awesome-system-design-resources | 0 | 0 |
+| awaiting_review | bookkeeper | 258 | 0 |
+| awaiting_review | brooklin | 77 | 219 |
+| awaiting_review | cantor | 0 | 0 |
+| awaiting_review | conductor | 136 | 515 |
+| awaiting_review | copycat | 60 | 135 |
+| awaiting_review | CorfuDB | 0 | 0 |
+| awaiting_review | crail | 18 | 23 |
+| awaiting_review | CronHub | 0 | 0 |
+| awaiting_review | dis-seckill | 0 | 0 |
+| awaiting_review | distkv | 6 | 4 |
+| awaiting_review | distributed-dev-learning | 0 | 0 |
+| awaiting_review | Distributed-System-Algorithms-Implementation | 0 | 0 |
+| awaiting_review | diztl | 11 | 32 |
+| awaiting_review | dslabs | 14 | 5 |
+| awaiting_review | dubbo | 715 | 1603 |
+| awaiting_review | Evon-Executor | 0 | 0 |
+| awaiting_review | file_management_sys | 0 | 0 |
+| awaiting_review | genie | 138 | 353 |
+| awaiting_review | getAheadWithMe | 0 | 0 |
+| awaiting_review | hp-soa | 8 | 15 |
+| awaiting_review | Hydra | 61 | 183 |
+| awaiting_review | jgroups-raft | 21 | 102 |
+| awaiting_review | jlitespider | 0 | 0 |
+| awaiting_review | JPPF | 462 | 1163 |
+| awaiting_review | Jupiter | 71 | 46 |
+| awaiting_review | kafka | 0 | 0 |
+| awaiting_review | klein | 5 | 8 |
+| awaiting_review | mangle | 1 | 2 |
+| awaiting_review | memq | 0 | 0 |
+| awaiting_review | MicroRaft | 17 | 144 |
+| awaiting_review | moleculer-java | 54 | 104 |
+| awaiting_review | nosqlbench | 146 | 246 |
+| awaiting_review | pegasus | 97 | 192 |
+| awaiting_review | py4j | 8 | 15 |
+| awaiting_review | rapid | 21 | 50 |
+| awaiting_review | rce | 5 | 0 |
+| awaiting_review | rsf | 42 | 94 |
+| awaiting_review | scalardb | 140 | 637 |
+| awaiting_review | scalecube-cluster | 38 | 109 |
+| awaiting_review | scalecube-services | 0 | 0 |
+| awaiting_review | ScriptSpider | 0 | 0 |
+| awaiting_review | sfs | 0 | 0 |
+| awaiting_review | social-network | 0 | 0 |
+| awaiting_review | southpaw | 6 | 5 |
+| awaiting_review | sparkler | 7 | 2 |
+| awaiting_review | swellrt | 90 | 184 |
+| awaiting_review | swim | 47 | 409 |
+| awaiting_review | tinywheel | 0 | 0 |
+| awaiting_review | vertx-in-action | 5 | 2 |
+| awaiting_review | waltz | 30 | 32 |
+| awaiting_review | websocket-cluster | 0 | 0 |
+| awaiting_review | xraft | 24 | 27 |
+| awaiting_review | zookeeper | 0 | 0 |
 
 <!-- END README-CANDIDATES-TABLE -->
 
