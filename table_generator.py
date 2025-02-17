@@ -84,6 +84,23 @@ def get_repo_dirs(status_path):
 
    return [repo for repo in os.listdir(status_path) if os.path.isdir(os.path.join(status_path, repo))]
 
+def count_csv_candidates(repo_path, repo_name):
+   """
+   Counts the number of class and method candidates in the repository CSV files.
+
+   :param repo_path: Path to the repository directory
+   :param repo_name: Name of the repository
+   :return: Tuple (class_count, method_count)
+   """
+
+   class_csv = os.path.join(repo_path, f"{repo_name}_classes_candidates.csv") # Get the path to the classes CSV file
+   method_csv = os.path.join(repo_path, f"{repo_name}_methods_candidates.csv") # Get the path to the methods CSV file
+   
+   class_count = count_candidates(class_csv) if os.path.exists(class_csv) else 0 # Count the number of class candidates
+   method_count = count_candidates(method_csv) if os.path.exists(method_csv) else 0 # Count the number of method candidates
+   
+   return class_count, method_count # Return the class and method counts
+
 def get_table_rows(candidates_path):
    """
    Generates the rows of the table, collecting status, repo name, and candidate counts.
