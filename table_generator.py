@@ -64,6 +64,28 @@ def get_markdown_header(timestamp):
       "|--------|----------|----------------|----------------|"
    ]
 
+def get_table_rows(candidates_path):
+   """
+   Generates the rows of the table, collecting status, repo name, and candidate counts.
+
+   :param candidates_path: Path to the candidates directory
+   :return: List of table rows with status, repo name, class candidates, and method candidates
+   """
+
+   table_rows = [] # List of table rows
+   base_dirs = get_base_dirs(candidates_path) # Get the base directories inside the candidates directory
+
+   for status in base_dirs: # Iterate through the base directories
+      status_path = os.path.join(candidates_path, status) # Get the path to the status directory
+
+      for repo_name in get_repo_dirs(status_path): # Iterate through the repository directories
+         repo_path = os.path.join(status_path, repo_name) # Get the path to the repository directory
+         class_count, method_count = count_csv_candidates(repo_path, repo_name) # Count the class and method candidates
+
+         table_rows.append((status, repo_name, class_count, method_count)) # Store data for sorting
+
+   return table_rows # Return the table rows
+
 def generate_markdown():
    """
    Generates a markdown table with candidate counts for each repository, 
