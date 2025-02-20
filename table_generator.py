@@ -183,7 +183,7 @@ def generate_markdown():
 
    return markdown_lines # Return the markdown lines
 
-def read_readme(file_path):
+def read_readme(file_path=README_PATH):
    """
    Reads the content of README.md.
 
@@ -235,7 +235,7 @@ def replace_table(content, new_table, start_marker, end_marker):
 
    return None # Return None
 
-def write_readme(file_path, content):
+def write_readme(file_path=README_PATH, content=""):
    """
    Writes the updated content back to README.md.
 
