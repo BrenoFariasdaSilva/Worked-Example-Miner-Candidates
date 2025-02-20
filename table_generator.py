@@ -18,6 +18,9 @@ class BackgroundColors: # Colors for the terminal
 # Execution Constants:
 VERBOSE = False # Set to True to output verbose messages
 
+# File Constants:
+README_PATH = "./README.md" # Path to the README.md file
+
 def verbose_output(true_string="", false_string=""):
    """
    Outputs a message if the VERBOSE constant is set to True.
@@ -275,6 +278,10 @@ def main():
    """
 
    print(f"{BackgroundColors.CLEAR_TERMINAL}{BackgroundColors.BOLD}{BackgroundColors.GREEN}Welcome to the {BackgroundColors.CYAN}Candidates Summary Table Generator{BackgroundColors.GREEN}!{Style.RESET_ALL}", end="\n\n") # Output the Welcome message
+	
+   if verify_filepath_exists(README_PATH): # Verify if the README.md file exists
+      print(f"{BackgroundColors.GREEN}README.md file found.{Style.RESET_ALL}")
+      return # Return if the README.md file is found
 
    markdown_lines = generate_markdown() # Generate the markdown table
    update_readme(markdown_lines) # Update the README.md file with the new markdown table
