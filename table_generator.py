@@ -183,6 +183,23 @@ def generate_markdown():
 
    return markdown_lines # Return the markdown lines
 
+def extract_existing_table(readme_path=README_PATH):
+	"""
+	Extracts the existing markdown table from the README file, excluding the timestamp header.
+
+	:param readme_path: Path to the README file
+	:return: The extracted table content as a string (excluding the timestamp header)
+	"""
+
+	verbose_output(f"{BackgroundColors.YELLOW}Extracting the existing markdown table from README.md{Style.RESET_ALL}")
+
+	with open(readme_path, "r", encoding="utf-8") as f: # Open the README.md file
+		content = f.read() # Read the content of the file
+
+	match = re.search(r"<!-- START README-CANDIDATES-TABLE -->\n.*?\n(\| # .*?)\n<!-- END README-CANDIDATES-TABLE -->", content, re.DOTALL) # Use regex to extract the table, excluding the timestamp header
+
+	return match.group(1) if match else "" # Return the extracted table content (excluding the timestamp header)
+
 def read_readme(file_path=README_PATH):
    """
    Reads the content of README.md.
