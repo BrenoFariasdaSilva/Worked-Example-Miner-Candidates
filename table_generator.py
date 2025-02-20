@@ -223,9 +223,9 @@ def replace_table(content, new_table, start_marker, end_marker):
 
    verbose_output(f"{BackgroundColors.YELLOW}Replacing the existing markdown table within the placeholder tags{Style.RESET_ALL}")
 
-   table_pattern = re.compile(
-      f"{re.escape(start_marker)}.*?{re.escape(end_marker)}",
-      re.DOTALL
+   table_pattern = re.compile( # Compile the regular expression pattern
+      f"{re.escape(start_marker)}.*?{re.escape(end_marker)}", # Start and
+      re.DOTALL # End markers
    ) # Regular expression pattern for the table
 
    if table_pattern.search(content): # If the table pattern is found
