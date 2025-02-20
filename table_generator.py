@@ -280,8 +280,7 @@ def update_readme(new_markdown_lines, readme_path=README_PATH):
    readme_content = read_readme(readme_path) # Read existing README content
 
    existing_table = extract_existing_table(readme_path) # Extract existing table (excluding timestamp)
-
-   new_table_body = "\n".join(new_markdown_lines[2:]) # Extract only the table part (excluding timestamp header)
+   new_table_body = "\n".join(new_markdown_lines[1:]) # Extract only the table part (excluding timestamp header)
 
    if existing_table.strip() == new_table_body.strip(): # Compare tables
       verbose_output(f"{BackgroundColors.GREEN}No changes detected in the table. Skipping update.{Style.RESET_ALL}")
