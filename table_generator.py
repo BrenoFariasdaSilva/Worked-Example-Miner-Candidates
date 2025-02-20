@@ -265,27 +265,39 @@ def write_readme(file_path=README_PATH, content=""):
    with open(file_path, "w", encoding="utf-8") as file: # Open the README.md file
       file.write(content) # Write the updated content
 
-def update_readme(markdown_lines):
+def update_readme(new_markdown_lines, readme_path=README_PATH):
    """
-   Updates the README.md file by replacing the markdown table inside the placeholder tags.
+   Updates the README.md file with the new markdown table if it has changed 
+   (excluding the timestamp header for comparison).
 
-   :param markdown_lines: List of markdown lines
+   :param new_markdown_lines: List of markdown lines for the new table
+   :param readme_path: Path to the README.md file
    :return: None
    """
 
-   verbose_output(f"{BackgroundColors.YELLOW}Updating the README.md file with the new markdown table{Style.RESET_ALL}")
+   verbose_output(f"{BackgroundColors.YELLOW}Updating README.md with the new markdown table{Style.RESET_ALL}")
 
-   readme_path = "./README.md" # Path to the README.md file
+   readme_content = read_readme(readme_path) # Read existing README content
+
+   existing_table = extract_existing_table(readme_path) # Extract existing table (excluding timestamp)
+
+   new_table_body = "\n".join(new_markdown_lines[2:]) # Extract only the table part (excluding timestamp header)
+
+   if existing_table.strip() == new_table_body.strip(): # Compare tables
+      verbose_output(f"{BackgroundColors.GREEN}No changes detected in the table. Skipping update.{Style.RESET_ALL}")
+      return # Skip update if the tables are identical
+
    start_marker = "<!-- START README-CANDIDATES-TABLE -->" # Start placeholder tag
    end_marker = "<!-- END README-CANDIDATES-TABLE -->" # End placeholder tag
+   new_table = construct_table(new_markdown_lines, start_marker, end_marker) # Construct the new table
 
-   readme_content = read_readme(readme_path) # Read the README.md file
-   new_table_content = construct_table(markdown_lines, start_marker, end_marker) # Construct the new markdown table
-   updated_readme_content = replace_table(readme_content, new_table_content, start_marker, end_marker) # Replace the existing markdown table with the new markdown table
+   updated_readme_content = replace_table(readme_content, new_table, start_marker, end_marker) # Replace the existing table with the new one
 
-   if updated_readme_content: # If the updated README.md content is not None
-      write_readme(readme_path, updated_readme_content) # Write the updated content back to README.md
-      verbose_output(f"{BackgroundColors.GREEN}README.md updated successfully{Style.RESET_ALL}") # Output the success message
+   if updated_readme_content: # If the updated content is not None
+      write_readme(readme_path, updated_readme_content) # Write the updated content back
+      verbose_output(f"{BackgroundColors.GREEN}README.md updated successfully!{Style.RESET_ALL}")
+   else:
+      verbose_output(f"{BackgroundColors.RED}Failed to update README.md. Table markers not found.{Style.RESET_ALL}")
 
 def main():
    """
