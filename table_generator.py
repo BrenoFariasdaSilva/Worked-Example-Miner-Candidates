@@ -185,7 +185,7 @@ def generate_markdown():
       total_class_candidates += class_count # Add to total class candidates
       total_method_candidates += method_count # Add to total method candidates
 
-   markdown_lines.append(f"| **Total** | <center>-</center> | **{len(table_rows)}** | **{total_class_candidates}** | **{total_method_candidates}** |") # Append the total row to the markdown lines
+   markdown_lines.append(f"| **Total** | <center>-</center> | **{len(table_rows)} Repositories.** | **{total_class_candidates} Class Candidates.** | **{total_method_candidates} Method Candidates.** |") # Append the total row to the markdown lines
 
    return markdown_lines # Return the markdown lines
 
