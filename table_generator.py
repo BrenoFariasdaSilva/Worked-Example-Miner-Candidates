@@ -161,8 +161,7 @@ def sort_table_rows(table_rows):
 
 def generate_markdown():
    """
-   Generates a markdown table with candidate counts for each repository, 
-   sorted by Status and Repo Name.
+   Generates a markdown table with candidate counts for each repository, sorted by Status and Repo Name, and includes a total row.
 
    :param None
    :return: List of markdown lines
@@ -178,8 +177,15 @@ def generate_markdown():
 
    table_rows = sort_table_rows(table_rows) # Sort the table rows
 
-   for i, (status, repo_name, class_count, method_count) in enumerate(table_rows, start = 1): # Iterate through the sorted table rows
+   total_class_candidates = 0 # Initialize total class candidates
+   total_method_candidates = 0 # Initialize total method candidates
+
+   for i, (status, repo_name, class_count, method_count) in enumerate(table_rows, start=1): # Iterate through the sorted table rows
       markdown_lines.append(f"| {i} | {status} | {repo_name} | {class_count} | {method_count} |") # Append the table row to the markdown lines
+      total_class_candidates += class_count # Add to total class candidates
+      total_method_candidates += method_count # Add to total method candidates
+
+   markdown_lines.append(f"| **Total** | <center>-</center> | **{len(table_rows)}** | **{total_class_candidates}** | **{total_method_candidates}** |") # Append the total row to the markdown lines
 
    return markdown_lines # Return the markdown lines
 
