@@ -92,7 +92,7 @@ This sections contains a markdown table with the current status of the candidate
 
 <!-- START README-CANDIDATES-TABLE -->
 
-### Candidates Summary (Last Updated: 2025-03-31 10:35:02)
+### Candidates Summary (Last Updated: 2025-03-31 22:27:09)
 
 | # | Status | Repo Name | Class Candidates | Method Candidates |
 |---|--------|----------|------------------|------------------|
@@ -147,12 +147,13 @@ This sections contains a markdown table with the current status of the candidate
 | 49 | awaiting_review | swellrt | 90 | 184 |
 | 50 | awaiting_review | swim | 47 | 409 |
 | 51 | awaiting_review | tinywheel | 0 | 0 |
-| 52 | awaiting_review | vertx-in-action | 5 | 2 |
-| 53 | awaiting_review | waltz | 30 | 32 |
-| 54 | awaiting_review | websocket-cluster | 0 | 0 |
-| 55 | awaiting_review | xraft | 24 | 27 |
-| 56 | awaiting_review | zookeeper | 0 | 0 |
-| **Total** | <center>-</center> | **56 Repositories.** | **2839 Class Candidates.** | **6662 Method Candidates.** |
+| 52 | awaiting_review | trino | 5 | 0 |
+| 53 | awaiting_review | vertx-in-action | 5 | 2 |
+| 54 | awaiting_review | waltz | 30 | 32 |
+| 55 | awaiting_review | websocket-cluster | 0 | 0 |
+| 56 | awaiting_review | xraft | 24 | 27 |
+| 57 | awaiting_review | zookeeper | 0 | 0 |
+| **Total** | <center>-</center> | **57 Repositories.** | **2844 Class Candidates.** | **6662 Method Candidates.** |
 
 <!-- END README-CANDIDATES-TABLE -->
 
