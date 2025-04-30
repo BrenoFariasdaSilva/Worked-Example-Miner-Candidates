@@ -92,7 +92,7 @@ This sections contains a markdown table with the current status of the candidate
 
 <!-- START README-CANDIDATES-TABLE -->
 
-### Candidates Summary (Last Updated: 2025-04-29 19:16:06)
+### Candidates Summary (Last Updated: 2025-04-30 09:34:37)
 
 | # | Status | Repo Name | Class Candidates | Method Candidates |
 |---|--------|----------|------------------|------------------|
@@ -118,44 +118,45 @@ This sections contains a markdown table with the current status of the candidate
 | 20 | awaiting_review | file_management_sys | 0 | 0 |
 | 21 | awaiting_review | genie | 138 | 353 |
 | 22 | awaiting_review | getAheadWithMe | 0 | 0 |
-| 23 | awaiting_review | hp-soa | 8 | 15 |
-| 24 | awaiting_review | Hydra | 61 | 183 |
-| 25 | awaiting_review | jgroups-raft | 21 | 102 |
-| 26 | awaiting_review | jlitespider | 0 | 0 |
-| 27 | awaiting_review | JPPF | 462 | 1163 |
-| 28 | awaiting_review | Jupiter | 71 | 46 |
-| 29 | awaiting_review | kafka | 0 | 0 |
-| 30 | awaiting_review | klein | 5 | 8 |
-| 31 | awaiting_review | kronotop | 0 | 101 |
-| 32 | awaiting_review | Lottor | 0 | 0 |
-| 33 | awaiting_review | mangle | 1 | 2 |
-| 34 | awaiting_review | memq | 0 | 0 |
-| 35 | awaiting_review | MicroRaft | 17 | 144 |
-| 36 | awaiting_review | moleculer-java | 54 | 104 |
-| 37 | awaiting_review | nosqlbench | 146 | 246 |
-| 38 | awaiting_review | pegasus | 97 | 192 |
-| 39 | awaiting_review | py4j | 8 | 15 |
-| 40 | awaiting_review | rapid | 21 | 50 |
-| 41 | awaiting_review | rce | 5 | 0 |
-| 42 | awaiting_review | rsf | 42 | 94 |
-| 43 | awaiting_review | scalardb | 140 | 637 |
-| 44 | awaiting_review | scalecube-cluster | 38 | 109 |
-| 45 | awaiting_review | scalecube-services | 0 | 0 |
-| 46 | awaiting_review | ScriptSpider | 0 | 0 |
-| 47 | awaiting_review | sfs | 0 | 0 |
-| 48 | awaiting_review | social-network | 0 | 0 |
-| 49 | awaiting_review | southpaw | 6 | 5 |
-| 50 | awaiting_review | sparkler | 7 | 2 |
-| 51 | awaiting_review | swellrt | 90 | 184 |
-| 52 | awaiting_review | swim | 47 | 409 |
-| 53 | awaiting_review | tinywheel | 0 | 0 |
-| 54 | awaiting_review | trino | 1376 | 3262 |
-| 55 | awaiting_review | vertx-in-action | 5 | 2 |
-| 56 | awaiting_review | waltz | 30 | 32 |
-| 57 | awaiting_review | websocket-cluster | 0 | 0 |
-| 58 | awaiting_review | xraft | 24 | 27 |
-| 59 | awaiting_review | zookeeper | 0 | 0 |
-| **Total** | <center>-</center> | **59 Repositories.** | **4215 Class Candidates.** | **10025 Method Candidates.** |
+| 23 | awaiting_review | hazelcast | 795 | 2058 |
+| 24 | awaiting_review | hp-soa | 8 | 15 |
+| 25 | awaiting_review | Hydra | 61 | 183 |
+| 26 | awaiting_review | jgroups-raft | 21 | 102 |
+| 27 | awaiting_review | jlitespider | 0 | 0 |
+| 28 | awaiting_review | JPPF | 462 | 1163 |
+| 29 | awaiting_review | Jupiter | 71 | 46 |
+| 30 | awaiting_review | kafka | 0 | 0 |
+| 31 | awaiting_review | klein | 5 | 8 |
+| 32 | awaiting_review | kronotop | 0 | 101 |
+| 33 | awaiting_review | Lottor | 0 | 0 |
+| 34 | awaiting_review | mangle | 1 | 2 |
+| 35 | awaiting_review | memq | 0 | 0 |
+| 36 | awaiting_review | MicroRaft | 17 | 144 |
+| 37 | awaiting_review | moleculer-java | 54 | 104 |
+| 38 | awaiting_review | nosqlbench | 146 | 246 |
+| 39 | awaiting_review | pegasus | 97 | 192 |
+| 40 | awaiting_review | py4j | 8 | 15 |
+| 41 | awaiting_review | rapid | 21 | 50 |
+| 42 | awaiting_review | rce | 5 | 0 |
+| 43 | awaiting_review | rsf | 42 | 94 |
+| 44 | awaiting_review | scalardb | 140 | 637 |
+| 45 | awaiting_review | scalecube-cluster | 38 | 109 |
+| 46 | awaiting_review | scalecube-services | 0 | 0 |
+| 47 | awaiting_review | ScriptSpider | 0 | 0 |
+| 48 | awaiting_review | sfs | 0 | 0 |
+| 49 | awaiting_review | social-network | 0 | 0 |
+| 50 | awaiting_review | southpaw | 6 | 5 |
+| 51 | awaiting_review | sparkler | 7 | 2 |
+| 52 | awaiting_review | swellrt | 90 | 184 |
+| 53 | awaiting_review | swim | 47 | 409 |
+| 54 | awaiting_review | tinywheel | 0 | 0 |
+| 55 | awaiting_review | trino | 1376 | 3262 |
+| 56 | awaiting_review | vertx-in-action | 5 | 2 |
+| 57 | awaiting_review | waltz | 30 | 32 |
+| 58 | awaiting_review | websocket-cluster | 0 | 0 |
+| 59 | awaiting_review | xraft | 24 | 27 |
+| 60 | awaiting_review | zookeeper | 0 | 0 |
+| **Total** | <center>-</center> | **60 Repositories.** | **5010 Class Candidates.** | **12083 Method Candidates.** |
 
 <!-- END README-CANDIDATES-TABLE -->
 
