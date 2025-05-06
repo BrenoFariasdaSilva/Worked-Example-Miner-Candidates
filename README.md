@@ -13,7 +13,9 @@
 The repository allows contributions from the community to review, analyze, and classify these candidates to identify the most valuable ones for teaching and learning. Contributors can classify candidates into different stages such as `awaiting review`, `under review`, `approved`, `discarded`, or `needing further review`.
 
 Additionally, **Worked Examples** are created from the **approved candidates** to be used in Computer Science education.
-  
+
+To see the list of current repository candidates, check out the 👉 [**Candidates Table**](#worked-example-candidates).
+
 ---
 
 </div>
@@ -45,7 +47,7 @@ Additionally, **Worked Examples** are created from the **approved candidates** t
   - [Dataset: Worked-Example Candidates](#dataset-worked-example-candidates)
     - [Directory Structure:](#directory-structure)
   - [Worked-Example Candidates](#worked-example-candidates)
-    - [Candidates Summary (Last Updated: 2025-02-17 14:55:46)](#candidates-summary-last-updated-2025-02-17-145546)
+    - [Candidates Summary (Last Updated: 2025-04-30 09:34:37)](#candidates-summary-last-updated-2025-04-30-093437)
     - [How to Contribute:](#how-to-contribute)
     - [Issue and PR Labeling:](#issue-and-pr-labeling)
   - [Contributing](#contributing)
