@@ -94,19 +94,19 @@ This sections contains a markdown table with the current status of the candidate
 
 <!-- START README-CANDIDATES-TABLE -->
 
-### Candidates Summary (Last Updated: 2025-04-30 09:34:37)
+### Candidates Summary (Last Updated: 2025-05-12 13:57:37)
 
 | # | Status | Repo Name | Class Candidates | Method Candidates |
 |---|--------|----------|------------------|------------------|
 | 1 | awaiting_review | advanced-java | 0 | 0 |
 | 2 | awaiting_review | allgood-consistent-hash | 0 | 2 |
 | 3 | awaiting_review | awesome-system-design-resources | 0 | 0 |
-| 4 | awaiting_review | bookkeeper | 258 | 0 |
+| 4 | awaiting_review | bookkeeper | 258 | 713 |
 | 5 | awaiting_review | brooklin | 77 | 219 |
 | 6 | awaiting_review | cantor | 0 | 0 |
 | 7 | awaiting_review | conductor | 136 | 515 |
 | 8 | awaiting_review | copycat | 60 | 135 |
-| 9 | awaiting_review | CorfuDB | 0 | 0 |
+| 9 | awaiting_review | CorfuDB | 333 | 877 |
 | 10 | awaiting_review | crail | 18 | 23 |
 | 11 | awaiting_review | CronHub | 0 | 0 |
 | 12 | awaiting_review | dis-seckill | 0 | 0 |
@@ -139,11 +139,11 @@ This sections contains a markdown table with the current status of the candidate
 | 39 | awaiting_review | pegasus | 97 | 192 |
 | 40 | awaiting_review | py4j | 8 | 15 |
 | 41 | awaiting_review | rapid | 21 | 50 |
-| 42 | awaiting_review | rce | 5 | 0 |
+| 42 | awaiting_review | rce | 5 | 5 |
 | 43 | awaiting_review | rsf | 42 | 94 |
 | 44 | awaiting_review | scalardb | 140 | 637 |
 | 45 | awaiting_review | scalecube-cluster | 38 | 109 |
-| 46 | awaiting_review | scalecube-services | 0 | 0 |
+| 46 | awaiting_review | scalecube-services | 99 | 214 |
 | 47 | awaiting_review | ScriptSpider | 0 | 0 |
 | 48 | awaiting_review | sfs | 0 | 0 |
 | 49 | awaiting_review | social-network | 0 | 0 |
@@ -157,8 +157,8 @@ This sections contains a markdown table with the current status of the candidate
 | 57 | awaiting_review | waltz | 30 | 32 |
 | 58 | awaiting_review | websocket-cluster | 0 | 0 |
 | 59 | awaiting_review | xraft | 24 | 27 |
-| 60 | awaiting_review | zookeeper | 0 | 0 |
-| **Total** | <center>-</center> | **60 Repositories.** | **5010 Class Candidates.** | **12083 Method Candidates.** |
+| 60 | awaiting_review | zookeeper | 52 | 0 |
+| **Total** | <center>-</center> | **60 Repositories.** | **5494 Class Candidates.** | **13892 Method Candidates.** |
 
 <!-- END README-CANDIDATES-TABLE -->
 
