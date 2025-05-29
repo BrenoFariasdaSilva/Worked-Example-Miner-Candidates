@@ -94,17 +94,17 @@ This sections contains a markdown table with the current status of the candidate
 
 <!-- START README-CANDIDATES-TABLE -->
 
-### Candidates Summary (Last Updated: 2025-05-12 13:57:37)
+### Candidates Summary (Last Updated: 2025-05-29 19:16:49)
 
 | # | Status | Repo Name | Class Candidates | Method Candidates |
 |---|--------|----------|------------------|------------------|
 | 1 | awaiting_review | advanced-java | 0 | 0 |
 | 2 | awaiting_review | allgood-consistent-hash | 0 | 2 |
 | 3 | awaiting_review | awesome-system-design-resources | 0 | 0 |
-| 4 | awaiting_review | bookkeeper | 258 | 713 |
+| 4 | awaiting_review | bookkeeper | 258 | 716 |
 | 5 | awaiting_review | brooklin | 77 | 219 |
 | 6 | awaiting_review | cantor | 0 | 0 |
-| 7 | awaiting_review | conductor | 136 | 515 |
+| 7 | awaiting_review | conductor | 136 | 529 |
 | 8 | awaiting_review | copycat | 60 | 135 |
 | 9 | awaiting_review | CorfuDB | 333 | 877 |
 | 10 | awaiting_review | crail | 18 | 23 |
@@ -115,21 +115,21 @@ This sections contains a markdown table with the current status of the candidate
 | 15 | awaiting_review | Distributed-System-Algorithms-Implementation | 0 | 0 |
 | 16 | awaiting_review | diztl | 11 | 32 |
 | 17 | awaiting_review | dslabs | 14 | 5 |
-| 18 | awaiting_review | dubbo | 715 | 1603 |
+| 18 | awaiting_review | dubbo | 715 | 1687 |
 | 19 | awaiting_review | Evon-Executor | 0 | 0 |
 | 20 | awaiting_review | file_management_sys | 0 | 0 |
 | 21 | awaiting_review | genie | 138 | 353 |
 | 22 | awaiting_review | getAheadWithMe | 0 | 0 |
 | 23 | awaiting_review | hazelcast | 795 | 2058 |
 | 24 | awaiting_review | hp-soa | 8 | 15 |
-| 25 | awaiting_review | Hydra | 61 | 183 |
-| 26 | awaiting_review | jgroups-raft | 21 | 102 |
+| 25 | awaiting_review | Hydra | 61 | 228 |
+| 26 | awaiting_review | jgroups-raft | 21 | 104 |
 | 27 | awaiting_review | jlitespider | 0 | 0 |
 | 28 | awaiting_review | JPPF | 462 | 1163 |
 | 29 | awaiting_review | Jupiter | 71 | 46 |
 | 30 | awaiting_review | kafka | 0 | 0 |
 | 31 | awaiting_review | klein | 5 | 8 |
-| 32 | awaiting_review | kronotop | 0 | 101 |
+| 32 | awaiting_review | kronotop | 0 | 126 |
 | 33 | awaiting_review | Lottor | 0 | 0 |
 | 34 | awaiting_review | mangle | 1 | 2 |
 | 35 | awaiting_review | memq | 0 | 0 |
@@ -141,7 +141,7 @@ This sections contains a markdown table with the current status of the candidate
 | 41 | awaiting_review | rapid | 21 | 50 |
 | 42 | awaiting_review | rce | 5 | 5 |
 | 43 | awaiting_review | rsf | 42 | 94 |
-| 44 | awaiting_review | scalardb | 140 | 637 |
+| 44 | awaiting_review | scalardb | 140 | 646 |
 | 45 | awaiting_review | scalecube-cluster | 38 | 109 |
 | 46 | awaiting_review | scalecube-services | 99 | 214 |
 | 47 | awaiting_review | ScriptSpider | 0 | 0 |
@@ -158,7 +158,7 @@ This sections contains a markdown table with the current status of the candidate
 | 58 | awaiting_review | websocket-cluster | 0 | 0 |
 | 59 | awaiting_review | xraft | 24 | 27 |
 | 60 | awaiting_review | zookeeper | 52 | 0 |
-| **Total** | <center>-</center> | **60 Repositories.** | **5494 Class Candidates.** | **13892 Method Candidates.** |
+| **Total** | <center>-</center> | **60 Repositories.** | **5494 Class Candidates.** | **14074 Method Candidates.** |
 
 <!-- END README-CANDIDATES-TABLE -->
 
