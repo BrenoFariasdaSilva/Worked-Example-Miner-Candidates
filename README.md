@@ -14,7 +14,7 @@ The repository allows contributions from the community to review, analyze, and c
 
 Additionally, **Worked Examples** are created from the **approved candidates** to be used in Computer Science education.
 
-To see the list of current repository candidates, check out the 👉 [**Candidates Table**](#worked-example-candidates).
+To see the list of current repository candidates, check out the [**Candidates Table**](#worked-example-candidates).
 
 ---
 
