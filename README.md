@@ -30,19 +30,6 @@ To see the list of current repository candidates, check out the [**Candidates Ta
 ![GitHub License](https://img.shields.io/github/license/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)
 ![GitHub Stars](https://img.shields.io/github/stars/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)
 ![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/Worked-Example-Miner-Candidates.svg)
-
-</div>
-
-<div align="center">
-
-![GitHub Code Size in Bytes](https://img.shields.io/github/languages/code-size/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)
-![GitHub Commits](https://img.shields.io/github/commit-activity/t/BrenoFariasdaSilva/Worked-Example-Miner-Candidates/main)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)
-![GitHub Forks](https://img.shields.io/github/forks/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)
-![GitHub Language Count](https://img.shields.io/github/languages/count/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)
-![GitHub License](https://img.shields.io/github/license/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)
-![GitHub Stars](https://img.shields.io/github/stars/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)
-![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/Worked-Example-Miner-Candidates.svg)
 [![GitHub Contributors](https://img.shields.io/github/contributors/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)](https://github.com/BrenoFariasdaSilva/Worked-Example-Miner-Candidates/graphs/contributors)
 [![GitHub Created At](https://img.shields.io/github/created-at/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)](https://github.com/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)
 [![GitHub Repository Size](https://img.shields.io/github/repo-size/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)](https://github.com/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)
@@ -53,7 +40,6 @@ To see the list of current repository candidates, check out the [**Candidates Ta
 [![Monthly Commits](https://img.shields.io/github/commit-activity/m/BrenoFariasdaSilva/Worked-Example-Miner-Candidates/main)](https://github.com/BrenoFariasdaSilva/Worked-Example-Miner-Candidates/commits)
 [![Merged PRs](https://img.shields.io/github/issues-search/BrenoFariasdaSilva/Worked-Example-Miner-Candidates?query=is%3Apr%20is%3Amerged&label=merged%20PRs&color=blue)](https://github.com/BrenoFariasdaSilva/Worked-Example-Miner-Candidates/pulls?q=is%3Apr+is%3Amerged)
 ![GitHub Primary Language](https://img.shields.io/badge/language-Python-3b82f6)
-
 ![Repobeats Statistics](https://repobeats.axiom.co/api/embed/bc840467acc4b59511923dbf8dc38af10103060c.svg)
 
 </div>
