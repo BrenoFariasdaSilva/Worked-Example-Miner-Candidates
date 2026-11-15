@@ -32,7 +32,6 @@ To see the list of current repository candidates, check out the [**Candidates Ta
 ![wakatime](https://wakatime.com/badge/github/BrenoFariasdaSilva/Worked-Example-Miner-Candidates.svg)
 [![GitHub Contributors](https://img.shields.io/github/contributors/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)](https://github.com/BrenoFariasdaSilva/Worked-Example-Miner-Candidates/graphs/contributors)
 [![GitHub Created At](https://img.shields.io/github/created-at/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)](https://github.com/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)
-[![GitHub Repository Size](https://img.shields.io/github/repo-size/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)](https://github.com/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)
 [![Open Issues](https://img.shields.io/github/issues/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)](https://github.com/BrenoFariasdaSilva/Worked-Example-Miner-Candidates/issues)
 [![Closed Issues](https://img.shields.io/github/issues-closed/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)](https://github.com/BrenoFariasdaSilva/Worked-Example-Miner-Candidates/issues?q=is%3Aissue+is%3Aclosed)
 [![Open Pull Requests](https://img.shields.io/github/issues-pr/BrenoFariasdaSilva/Worked-Example-Miner-Candidates)](https://github.com/BrenoFariasdaSilva/Worked-Example-Miner-Candidates/pulls)
